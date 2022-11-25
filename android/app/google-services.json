@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "342041418499",
+    "project_id": "base-de-datos-chat-39c58",
+    "storage_bucket": "base-de-datos-chat-39c58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342041418499:android:543b84178d06d6da886736",
+        "android_client_info": {
+          "package_name": "com.example.reto3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342041418499-fcsilomqa8k3gu6uunvbcjdtumbk6u2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAw_tzR-YXXjzklbydN2gKHjJEF4WSf5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342041418499-fcsilomqa8k3gu6uunvbcjdtumbk6u2g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
