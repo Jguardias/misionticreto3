@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:reto3/process/autenticacion.dart';
+import 'package:reto3/screens/listaUsuarios.dart';
 
 class login extends StatefulWidget {
   const login({super.key});
@@ -10,7 +11,7 @@ class login extends StatefulWidget {
 
 final email = TextEditingController();
 final password = TextEditingController();
-
+final correo = TextEditingController();
 
 class _loginState extends State<login> {
   @override
@@ -51,6 +52,12 @@ class _loginState extends State<login> {
 
                ElevatedButton.icon(onPressed: (){
                 Autenticacion().CrearUsuario(email: email.text, password: password.text);
+                db.collection("Usuario").doc().set(
+                  {
+                    "Correo": email.text,
+                  }
+                );
+                 
                  email.clear();
                  password.clear();
                  
